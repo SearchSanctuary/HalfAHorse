@@ -1,0 +1,62 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+
+#pragma once
+
+#include "CoreMinimal.h"
+#include "GameFramework/PlayerController.h"
+
+#include "Player/GameCameraManager.h"
+#include "HalfAHorsePlayerController.generated.h"
+
+class UInputMappingContext;
+class UUserWidget;
+
+/**
+ *  Basic PlayerController class for a third person game
+ *  Manages input mappings
+ */
+UCLASS(abstract)
+class AHalfAHorsePlayerController : public APlayerController
+{
+	GENERATED_BODY()
+
+	AHalfAHorsePlayerController();
+	
+protected:
+
+	/** Input Mapping Contexts */
+	UPROPERTY(EditAnywhere, Category ="Input|Input Mappings")
+	TArray<UInputMappingContext*> DefaultMappingContexts;
+
+	/** Input Mapping Contexts */
+	UPROPERTY(EditAnywhere, Category="Input|Input Mappings")
+	TArray<UInputMappingContext*> MobileExcludedMappingContexts;
+
+	/** Mobile controls widget to spawn */
+	UPROPERTY(EditAnywhere, Category="Input|Touch Controls")
+	TSubclassOf<UUserWidget> MobileControlsWidgetClass;
+
+	/** Pointer to the mobile controls widget */
+	TObjectPtr<UUserWidget> MobileControlsWidget;
+
+	/** Gameplay initialization */
+	virtual void BeginPlay() override;
+
+	/** Input mapping context setup */
+	virtual void SetupInputComponent() override;
+
+	virtual void OnPossess(APawn* InPawn);
+
+public:
+	UPROPERTY(VisibleAnywhere)
+	bool bAligningCamera = false;
+
+	FRotator TargetMergeRotation;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	float CameraAlignSpeed = 2.f;
+
+	void StartCameraAlignment(FRotator NewRotation);
+
+	void Tick(float DeltaTime);
+};

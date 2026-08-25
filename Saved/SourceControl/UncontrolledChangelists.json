@@ -1,0 +1,34 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"C:/Users/xavie/OneDrive/Documents/Unreal Projects/Games/HalfAHorse/Content/ThirdPerson/Blueprints/BP_ThirdPersonGameMode.uasset",
+				"C:/Users/xavie/OneDrive/Documents/Unreal Projects/Games/HalfAHorse/Content/ThirdPerson/Blueprints/BP_HorsemanCharacter.uasset",
+				"C:/Users/xavie/OneDrive/Documents/Unreal Projects/Games/HalfAHorse/Content/ThirdPerson/Blueprints/BP_HalfAHorseGameMode.uasset",
+				"C:/Users/xavie/OneDrive/Documents/Unreal Projects/Games/HalfAHorse/Content/MyStuff/BP_HalfAHorseGameMode.uasset",
+				"C:/Users/xavie/OneDrive/Documents/Unreal Projects/Games/HalfAHorse/Content/MyStuff/BP_HalfAHorseController.uasset",
+				"C:/Users/xavie/OneDrive/Documents/Unreal Projects/Games/HalfAHorse/Content/MyStuff/BP_HalfAHorseCharacter.uasset",
+				"C:/Users/xavie/OneDrive/Documents/Unreal Projects/Games/HalfAHorse/Content/MyStuff/BP_GameCameraManger.uasset",
+				"C:/Users/xavie/OneDrive/Documents/Unreal Projects/Games/HalfAHorse/Content/MyStuff/BP_GameCameraManager.uasset",
+				"C:/Users/xavie/OneDrive/Documents/Unreal Projects/Games/HalfAHorse/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/C/HY/Q7CPP7VHOXBAMAJI90W626.uasset",
+				"C:/Users/xavie/OneDrive/Documents/Unreal Projects/Games/HalfAHorse/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/D/NQ/69F0V7CO8QNR2PTP8G2MI8.uasset",
+				"C:/Users/xavie/OneDrive/Documents/Unreal Projects/Games/HalfAHorse/Content/MyStuff/BP_CameraDirector.uasset",
+				"C:/Users/xavie/OneDrive/Documents/Unreal Projects/Games/HalfAHorse/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/4/2M/UBEZS2YM3I1206M1MZTX9Z.uasset",
+				"C:/Users/xavie/OneDrive/Documents/Unreal Projects/Games/HalfAHorse/Content/MyStuff/BP_SharedCamera.uasset",
+				"C:/Users/xavie/OneDrive/Documents/Unreal Projects/Games/HalfAHorse/Content/ThirdPerson/Blueprints/BP_MergeLocation.uasset",
+				"C:/Users/xavie/OneDrive/Documents/Unreal Projects/Games/HalfAHorse/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/7/I9/0SV72XLIE81T70JG38ESNX.uasset",
+				"C:/Users/xavie/OneDrive/Documents/Unreal Projects/Games/HalfAHorse/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/E/UZ/C56T05NUVLAPKQLCX6N8K0.uasset",
+				"C:/Users/xavie/OneDrive/Documents/Unreal Projects/Games/HalfAHorse/Content/MyStuff/BP_MergeLocation.uasset",
+				"C:/Users/xavie/OneDrive/Documents/Unreal Projects/Games/HalfAHorse/Content/MyStuff/Conversation/DA_DemuraInitial.uasset",
+				"C:/Users/xavie/OneDrive/Documents/Unreal Projects/Games/HalfAHorse/Content/MyStuff/Conversation/WBP_2-WayConversation.uasset",
+				"C:/Users/xavie/OneDrive/Documents/Unreal Projects/Games/HalfAHorse/Content/MyStuff/Conversation/WBP_DialogueChoice.uasset",
+				"C:/Users/xavie/OneDrive/Documents/Unreal Projects/Games/HalfAHorse/Content/ThirdPerson/Blueprints/BP_HalfAHorseCharacter.uasset",
+				"C:/Users/xavie/OneDrive/Documents/Unreal Projects/Games/HalfAHorse/Content/ThirdPerson/Blueprints/BP_HalfAHorseController.uasset",
+				"C:/Users/xavie/OneDrive/Documents/Unreal Projects/Games/HalfAHorse/Content/ThirdPerson/Blueprints/BP_HalfAHorsePawn.uasset"
+			]
+		}
+	]
+}

@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "HalfAHorse",
+			"Path": "..\\Source\\HalfAHorse.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "HalfAHorseEditor",
+			"Path": "..\\Source\\HalfAHorseEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

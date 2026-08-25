@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\HalfAHorse.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\HalfAHorse.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\HalfAHorseEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\.vsconfig" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\HalfAHorse">
+      <UniqueIdentifier>{7ED2122A-9A56-38D4-8085-F031B79EF043}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\HalfAHorse\HalfAHorse.Build.cs">
+      <Filter>Source\HalfAHorse</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\HalfAHorse\HalfAHorse.cpp">
+      <Filter>Source\HalfAHorse</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HalfAHorse\HalfAHorse.h">
+      <Filter>Source\HalfAHorse</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\HalfAHorse\HalfAHorseCharacter.cpp">
+      <Filter>Source\HalfAHorse</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HalfAHorse\HalfAHorseCharacter.h">
+      <Filter>Source\HalfAHorse</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\HalfAHorse\HalfAHorseGameMode.cpp">
+      <Filter>Source\HalfAHorse</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HalfAHorse\HalfAHorseGameMode.h">
+      <Filter>Source\HalfAHorse</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\HalfAHorse\HalfAHorsePawn.cpp">
+      <Filter>Source\HalfAHorse</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HalfAHorse\HalfAHorsePawn.h">
+      <Filter>Source\HalfAHorse</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\HalfAHorse\HalfAHorsePlayerController.cpp">
+      <Filter>Source\HalfAHorse</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HalfAHorse\HalfAHorsePlayerController.h">
+      <Filter>Source\HalfAHorse</Filter>
+    </ClInclude>
+    <Filter Include="Source\HalfAHorse\Conversation">
+      <UniqueIdentifier>{61163CD9-A313-3EF4-A338-F18753986186}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\HalfAHorse\Conversation\ConversationDataAsset.cpp">
+      <Filter>Source\HalfAHorse\Conversation</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HalfAHorse\Conversation\ConversationDataAsset.h">
+      <Filter>Source\HalfAHorse\Conversation</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\HalfAHorse\Conversation\ConversationManager.cpp">
+      <Filter>Source\HalfAHorse\Conversation</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HalfAHorse\Conversation\ConversationManager.h">
+      <Filter>Source\HalfAHorse\Conversation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\HalfAHorse\Conversation\ConversationTypes.h">
+      <Filter>Source\HalfAHorse\Conversation</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\HalfAHorse\Conversation\DialogueChoiceWidget.cpp">
+      <Filter>Source\HalfAHorse\Conversation</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HalfAHorse\Conversation\DialogueChoiceWidget.h">
+      <Filter>Source\HalfAHorse\Conversation</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\HalfAHorse\Conversation\DualConversationWidget.cpp">
+      <Filter>Source\HalfAHorse\Conversation</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HalfAHorse\Conversation\DualConversationWidget.h">
+      <Filter>Source\HalfAHorse\Conversation</Filter>
+    </ClInclude>
+    <Filter Include="Source\HalfAHorse\Player">
+      <UniqueIdentifier>{51020604-9E0F-39DA-9BD6-C255FB80D11C}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\HalfAHorse\Player\GameCameraManager.cpp">
+      <Filter>Source\HalfAHorse\Player</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HalfAHorse\Player\GameCameraManager.h">
+      <Filter>Source\HalfAHorse\Player</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\HalfAHorse\Player\HalfAHorseCameraDirector.cpp">
+      <Filter>Source\HalfAHorse\Player</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HalfAHorse\Player\HalfAHorseCameraDirector.h">
+      <Filter>Source\HalfAHorse\Player</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\HalfAHorse\Player\MergeLocation.cpp">
+      <Filter>Source\HalfAHorse\Player</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HalfAHorse\Player\MergeLocation.h">
+      <Filter>Source\HalfAHorse\Player</Filter>
+    </ClInclude>
+    <Filter Include="Source\HalfAHorse\Private">
+      <UniqueIdentifier>{09E5F815-53FA-3A3F-8ACB-67160DE91155}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\HalfAHorse\Private\Game">
+      <UniqueIdentifier>{61E4E86A-CECF-3E54-ACD3-7E49B4D5E1BF}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\HalfAHorse\Private\Game\HalfAHorseCameraProfile.cpp">
+      <Filter>Source\HalfAHorse\Private\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\HalfAHorse\Private\Game\HalfAHorseGameState.cpp">
+      <Filter>Source\HalfAHorse\Private\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\HalfAHorse\Private\Game\SplitScreenCameraSubsystem.cpp">
+      <Filter>Source\HalfAHorse\Private\Game</Filter>
+    </ClCompile>
+    <Filter Include="Source\HalfAHorse\Public">
+      <UniqueIdentifier>{A24589FF-BEB4-3306-A06E-CC7DF9A457A9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\HalfAHorse\Public\Game">
+      <UniqueIdentifier>{F4F3383A-47BE-3760-9559-C564D99A2CE0}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\HalfAHorse\Public\Game\HalfAHorseCameraProfile.h">
+      <Filter>Source\HalfAHorse\Public\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\HalfAHorse\Public\Game\HalfAHorseGameState.h">
+      <Filter>Source\HalfAHorse\Public\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\HalfAHorse\Public\Game\SplitScreenCameraSubsystem.h">
+      <Filter>Source\HalfAHorse\Public\Game</Filter>
+    </ClInclude>
+    <Filter Include="Source\HalfAHorse\Variant_Combat">
+      <UniqueIdentifier>{30D85EDB-0ADA-3605-BA06-5B8228E2A827}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\HalfAHorse\Variant_Combat\CombatCharacter.cpp">
+      <Filter>Source\HalfAHorse\Variant_Combat</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HalfAHorse\Variant_Combat\CombatCharacter.h">
+      <Filter>Source\HalfAHorse\Variant_Combat</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\HalfAHorse\Variant_Combat\CombatGameMode.cpp">
+      <Filter>Source\HalfAHorse\Variant_Combat</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HalfAHorse\Variant_Combat\CombatGameMode.h">
+      <Filter>Source\HalfAHorse\Variant_Combat</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\HalfAHorse\Variant_Combat\CombatPlayerController.cpp">
+      <Filter>Source\HalfAHorse\Variant_Combat</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HalfAHorse\Variant_Combat\CombatPlayerController.h">
+      <Filter>Source\HalfAHorse\Variant_Combat</Filter>
+    </ClInclude>
+    <Filter Include="Source\HalfAHorse\Variant_Combat\AI">
+      <UniqueIdentifier>{58DB8136-739E-30E6-944C-4F6185AD6B3A}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\HalfAHorse\Variant_Combat\AI\CombatAIController.cpp">
+      <Filter>Source\HalfAHorse\Variant_Combat\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HalfAHorse\Variant_Combat\AI\CombatAIController.h">
+      <Filter>Source\HalfAHorse\Variant_Combat\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\HalfAHorse\Variant_Combat\AI\CombatEnemy.cpp">
+      <Filter>Source\HalfAHorse\Variant_Combat\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HalfAHorse\Variant_Combat\AI\CombatEnemy.h">
+      <Filter>Source\HalfAHorse\Variant_Combat\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\HalfAHorse\Variant_Combat\AI\CombatEnemySpawner.cpp">
+      <Filter>Source\HalfAHorse\Variant_Combat\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HalfAHorse\Variant_Combat\AI\CombatEnemySpawner.h">
+      <Filter>Source\HalfAHorse\Variant_Combat\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\HalfAHorse\Variant_Combat\AI\CombatStateTreeUtility.cpp">
+      <Filter>Source\HalfAHorse\Variant_Combat\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HalfAHorse\Variant_Combat\AI\CombatStateTreeUtility.h">
+      <Filter>Source\HalfAHorse\Variant_Combat\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\HalfAHorse\Variant_Combat\AI\EnvQueryContext_Player.cpp">
+      <Filter>Source\HalfAHorse\Variant_Combat\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HalfAHorse\Variant_Combat\AI\EnvQueryContext_Player.h">
+      <Filter>Source\HalfAHorse\Variant_Combat\AI</Filter>
+    </ClInclude>
+    <Filter Include="Source\HalfAHorse\Variant_Combat\Animation">
+      <UniqueIdentifier>{66716A78-D26D-368A-8F34-0F164FCB3CDB}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\HalfAHorse\Variant_Combat\Animation\AnimNotify_CheckChargedAttack.cpp">
+      <Filter>Source\HalfAHorse\Variant_Combat\Animation</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HalfAHorse\Variant_Combat\Animation\AnimNotify_CheckChargedAttack.h">
+      <Filter>Source\HalfAHorse\Variant_Combat\Animation</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\HalfAHorse\Variant_Combat\Animation\AnimNotify_CheckCombo.cpp">
+      <Filter>Source\HalfAHorse\Variant_Combat\Animation</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HalfAHorse\Variant_Combat\Animation\AnimNotify_CheckCombo.h">
+      <Filter>Source\HalfAHorse\Variant_Combat\Animation</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\HalfAHorse\Variant_Combat\Animation\AnimNotify_DoAttackTrace.cpp">
+      <Filter>Source\HalfAHorse\Variant_Combat\Animation</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HalfAHorse\Variant_Combat\Animation\AnimNotify_DoAttackTrace.h">
+      <Filter>Source\HalfAHorse\Variant_Combat\Animation</Filter>
+    </ClInclude>
+    <Filter Include="Source\HalfAHorse\Variant_Combat\Gameplay">
+      <UniqueIdentifier>{BB02B252-FCFF-36BC-8288-EA0ADE1631E9}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\HalfAHorse\Variant_Combat\Gameplay\CombatActivationVolume.cpp">
+      <Filter>Source\HalfAHorse\Variant_Combat\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HalfAHorse\Variant_Combat\Gameplay\CombatActivationVolume.h">
+      <Filter>Source\HalfAHorse\Variant_Combat\Gameplay</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\HalfAHorse\Variant_Combat\Gameplay\CombatCheckpointVolume.cpp">
+      <Filter>Source\HalfAHorse\Variant_Combat\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HalfAHorse\Variant_Combat\Gameplay\CombatCheckpointVolume.h">
+      <Filter>Source\HalfAHorse\Variant_Combat\Gameplay</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\HalfAHorse\Variant_Combat\Gameplay\CombatDamageableBox.cpp">
+      <Filter>Source\HalfAHorse\Variant_Combat\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HalfAHorse\Variant_Combat\Gameplay\CombatDamageableBox.h">
+      <Filter>Source\HalfAHorse\Variant_Combat\Gameplay</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\HalfAHorse\Variant_Combat\Gameplay\CombatDummy.cpp">
+      <Filter>Source\HalfAHorse\Variant_Combat\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HalfAHorse\Variant_Combat\Gameplay\CombatDummy.h">
+      <Filter>Source\HalfAHorse\Variant_Combat\Gameplay</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\HalfAHorse\Variant_Combat\Gameplay\CombatLavaFloor.cpp">
+      <Filter>Source\HalfAHorse\Variant_Combat\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HalfAHorse\Variant_Combat\Gameplay\CombatLavaFloor.h">
+      <Filter>Source\HalfAHorse\Variant_Combat\Gameplay</Filter>
+    </ClInclude>
+    <Filter Include="Source\HalfAHorse\Variant_Combat\Interfaces">
+      <UniqueIdentifier>{8AE7C90F-325A-3EBA-A028-DF78A09EF5BC}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\HalfAHorse\Variant_Combat\Interfaces\CombatActivatable.cpp">
+      <Filter>Source\HalfAHorse\Variant_Combat\Interfaces</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HalfAHorse\Variant_Combat\Interfaces\CombatActivatable.h">
+      <Filter>Source\HalfAHorse\Variant_Combat\Interfaces</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\HalfAHorse\Variant_Combat\Interfaces\CombatAttacker.cpp">
+      <Filter>Source\HalfAHorse\Variant_Combat\Interfaces</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HalfAHorse\Variant_Combat\Interfaces\CombatAttacker.h">
+      <Filter>Source\HalfAHorse\Variant_Combat\Interfaces</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\HalfAHorse\Variant_Combat\Interfaces\CombatDamageable.cpp">
+      <Filter>Source\HalfAHorse\Variant_Combat\Interfaces</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HalfAHorse\Variant_Combat\Interfaces\CombatDamageable.h">
+      <Filter>Source\HalfAHorse\Variant_Combat\Interfaces</Filter>
+    </ClInclude>
+    <Filter Include="Source\HalfAHorse\Variant_Combat\UI">
+      <UniqueIdentifier>{65765B3B-1EA0-3B7D-95A8-C06E4C4E2DAE}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\HalfAHorse\Variant_Combat\UI\CombatLifeBar.cpp">
+      <Filter>Source\HalfAHorse\Variant_Combat\UI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HalfAHorse\Variant_Combat\UI\CombatLifeBar.h">
+      <Filter>Source\HalfAHorse\Variant_Combat\UI</Filter>
+    </ClInclude>
+    <Filter Include="Source\HalfAHorse\Variant_Platforming">
+      <UniqueIdentifier>{7BE7D666-1B02-3207-A7EE-1C263CBC8775}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\HalfAHorse\Variant_Platforming\PlatformingCharacter.cpp">
+      <Filter>Source\HalfAHorse\Variant_Platforming</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HalfAHorse\Variant_Platforming\PlatformingCharacter.h">
+      <Filter>Source\HalfAHorse\Variant_Platforming</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\HalfAHorse\Variant_Platforming\PlatformingGameMode.cpp">
+      <Filter>Source\HalfAHorse\Variant_Platforming</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HalfAHorse\Variant_Platforming\PlatformingGameMode.h">
+      <Filter>Source\HalfAHorse\Variant_Platforming</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\HalfAHorse\Variant_Platforming\PlatformingPlayerController.cpp">
+      <Filter>Source\HalfAHorse\Variant_Platforming</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HalfAHorse\Variant_Platforming\PlatformingPlayerController.h">
+      <Filter>Source\HalfAHorse\Variant_Platforming</Filter>
+    </ClInclude>
+    <Filter Include="Source\HalfAHorse\Variant_Platforming\Animation">
+      <UniqueIdentifier>{1ACB2BDE-03E3-3866-9DDD-2725CB19E5A2}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\HalfAHorse\Variant_Platforming\Animation\AnimNotify_EndDash.cpp">
+      <Filter>Source\HalfAHorse\Variant_Platforming\Animation</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HalfAHorse\Variant_Platforming\Animation\AnimNotify_EndDash.h">
+      <Filter>Source\HalfAHorse\Variant_Platforming\Animation</Filter>
+    </ClInclude>
+    <Filter Include="Source\HalfAHorse\Variant_SideScrolling">
+      <UniqueIdentifier>{B36EAAFD-7D61-3E13-8A73-9F11687E169E}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\HalfAHorse\Variant_SideScrolling\SideScrollingCameraManager.cpp">
+      <Filter>Source\HalfAHorse\Variant_SideScrolling</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HalfAHorse\Variant_SideScrolling\SideScrollingCameraManager.h">
+      <Filter>Source\HalfAHorse\Variant_SideScrolling</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\HalfAHorse\Variant_SideScrolling\SideScrollingCharacter.cpp">
+      <Filter>Source\HalfAHorse\Variant_SideScrolling</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HalfAHorse\Variant_SideScrolling\SideScrollingCharacter.h">
+      <Filter>Source\HalfAHorse\Variant_SideScrolling</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\HalfAHorse\Variant_SideScrolling\SideScrollingGameMode.cpp">
+      <Filter>Source\HalfAHorse\Variant_SideScrolling</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HalfAHorse\Variant_SideScrolling\SideScrollingGameMode.h">
+      <Filter>Source\HalfAHorse\Variant_SideScrolling</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\HalfAHorse\Variant_SideScrolling\SideScrollingPlayerController.cpp">
+      <Filter>Source\HalfAHorse\Variant_SideScrolling</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HalfAHorse\Variant_SideScrolling\SideScrollingPlayerController.h">
+      <Filter>Source\HalfAHorse\Variant_SideScrolling</Filter>
+    </ClInclude>
+    <Filter Include="Source\HalfAHorse\Variant_SideScrolling\AI">
+      <UniqueIdentifier>{56517C43-3D05-3D45-A7CB-FC05BEA8D51A}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\HalfAHorse\Variant_SideScrolling\AI\SideScrollingAIController.cpp">
+      <Filter>Source\HalfAHorse\Variant_SideScrolling\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HalfAHorse\Variant_SideScrolling\AI\SideScrollingAIController.h">
+      <Filter>Source\HalfAHorse\Variant_SideScrolling\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\HalfAHorse\Variant_SideScrolling\AI\SideScrollingNPC.cpp">
+      <Filter>Source\HalfAHorse\Variant_SideScrolling\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HalfAHorse\Variant_SideScrolling\AI\SideScrollingNPC.h">
+      <Filter>Source\HalfAHorse\Variant_SideScrolling\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\HalfAHorse\Variant_SideScrolling\AI\SideScrollingStateTreeUtility.cpp">
+      <Filter>Source\HalfAHorse\Variant_SideScrolling\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HalfAHorse\Variant_SideScrolling\AI\SideScrollingStateTreeUtility.h">
+      <Filter>Source\HalfAHorse\Variant_SideScrolling\AI</Filter>
+    </ClInclude>
+    <Filter Include="Source\HalfAHorse\Variant_SideScrolling\Gameplay">
+      <UniqueIdentifier>{8059782E-35AA-3FCD-B523-EB7570FE3242}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\HalfAHorse\Variant_SideScrolling\Gameplay\SideScrollingJumpPad.cpp">
+      <Filter>Source\HalfAHorse\Variant_SideScrolling\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HalfAHorse\Variant_SideScrolling\Gameplay\SideScrollingJumpPad.h">
+      <Filter>Source\HalfAHorse\Variant_SideScrolling\Gameplay</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\HalfAHorse\Variant_SideScrolling\Gameplay\SideScrollingMovingPlatform.cpp">
+      <Filter>Source\HalfAHorse\Variant_SideScrolling\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HalfAHorse\Variant_SideScrolling\Gameplay\SideScrollingMovingPlatform.h">
+      <Filter>Source\HalfAHorse\Variant_SideScrolling\Gameplay</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\HalfAHorse\Variant_SideScrolling\Gameplay\SideScrollingPickup.cpp">
+      <Filter>Source\HalfAHorse\Variant_SideScrolling\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HalfAHorse\Variant_SideScrolling\Gameplay\SideScrollingPickup.h">
+      <Filter>Source\HalfAHorse\Variant_SideScrolling\Gameplay</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\HalfAHorse\Variant_SideScrolling\Gameplay\SideScrollingSoftPlatform.cpp">
+      <Filter>Source\HalfAHorse\Variant_SideScrolling\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HalfAHorse\Variant_SideScrolling\Gameplay\SideScrollingSoftPlatform.h">
+      <Filter>Source\HalfAHorse\Variant_SideScrolling\Gameplay</Filter>
+    </ClInclude>
+    <Filter Include="Source\HalfAHorse\Variant_SideScrolling\Interfaces">
+      <UniqueIdentifier>{5CF5A934-66EE-3D1B-919D-24FEAA926422}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\HalfAHorse\Variant_SideScrolling\Interfaces\SideScrollingInteractable.cpp">
+      <Filter>Source\HalfAHorse\Variant_SideScrolling\Interfaces</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HalfAHorse\Variant_SideScrolling\Interfaces\SideScrollingInteractable.h">
+      <Filter>Source\HalfAHorse\Variant_SideScrolling\Interfaces</Filter>
+    </ClInclude>
+    <Filter Include="Source\HalfAHorse\Variant_SideScrolling\UI">
+      <UniqueIdentifier>{DA1BB6F4-3666-38B8-B6D0-2B197A94A64C}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\HalfAHorse\Variant_SideScrolling\UI\SideScrollingUI.cpp">
+      <Filter>Source\HalfAHorse\Variant_SideScrolling\UI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HalfAHorse\Variant_SideScrolling\UI\SideScrollingUI.h">
+      <Filter>Source\HalfAHorse\Variant_SideScrolling\UI</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
