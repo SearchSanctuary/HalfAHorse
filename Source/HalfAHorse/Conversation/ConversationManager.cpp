@@ -58,8 +58,9 @@ void UConversationManager::SetDialogueAndChoices(const FDialogueNode* CurrentNod
 	ConversationWidget->SetNPCDialogue(CurrentNode->DialogueText);
 	UE_LOG(LogTemp, Warning, TEXT("CM: Dialogue Text set"));
 
-	ConversationWidget->SetStarChoiceText(CurrentNode->StarChoices);
-	//ConversationWidget->SetButterbeanChoiceText(CurrentNode->ButterbeanChoices);
+	ConversationWidget->CreateStarChoices(CurrentNode->StarChoices);
+	ConversationWidget->CreateButterbeanChoices(CurrentNode->ButterbeanChoices);
+	UE_LOG(LogTemp, Warning, TEXT("CM: Choices set"));
 }
 
 FDialogueNode* UConversationManager::GetNode(FName NodeID)
