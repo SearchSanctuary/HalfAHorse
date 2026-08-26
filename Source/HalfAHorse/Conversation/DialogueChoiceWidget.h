@@ -20,9 +20,11 @@ public:
 	void SetDialogueChoice(const FDialogueChoice& InChoice);
 
 	// Called when dialogue choice is selected
-	//FOnDialogueChoiceSelected OnDialogueChoiceSelected;
+	FName OnDialogueChoiceSelected();
 
 protected:
+
+	virtual void NativeConstruct() override;
 
 	UPROPERTY(meta = (bindWidget))
 	class UButton* DialogueButton;

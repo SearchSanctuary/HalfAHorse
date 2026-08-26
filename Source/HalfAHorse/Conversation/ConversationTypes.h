@@ -18,6 +18,9 @@ struct FDialogueChoice
     GENERATED_BODY()
 
     UPROPERTY(EditAnywhere)
+    FText ChoiceTip;
+
+    UPROPERTY(EditAnywhere)
     FName ChoiceID;
 
     UPROPERTY(EditAnywhere)

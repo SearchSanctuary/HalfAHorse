@@ -19,8 +19,12 @@ class HALFAHORSE_API UDualConversationWidget : public UUserWidget
 public:
 
 	void SetNPCDialogue(FText DialogueText);	
-	void SetStarChoiceText(TArray<FDialogueChoice> Choices);
-	void SetButterbeanChoiceText(TArray<FDialogueChoice> Choices);
+	void CreateStarChoices(TArray<FDialogueChoice> Choices);
+	void CreateButterbeanChoices(TArray<FDialogueChoice> Choices);
+
+	UPROPERTY(EditAnywhere)
+	TSubclassOf<class UDialogueChoiceWidget> DialogueWidgetClass;
+
 
 	FORCEINLINE UDualConversationWidget* GetDualConversationWidget() { return this; }
 
@@ -32,31 +36,14 @@ private:
 	class UTextBlock* NPCText;
 
 	UPROPERTY(meta = (bindWidget))
-	class UCanvasPanel* P1Panel;
+	class UCanvasPanel* StarPanel;
 	UPROPERTY(meta = (bindWidget))
-	class UCanvasPanel* P2Panel;
+	class UCanvasPanel* ButterbeanPanel;
 
 	UPROPERTY(meta = (bindWidget))
-	class UVerticalBox* P1ChoiceList;
+	class UVerticalBox* StarChoiceBox;
 	UPROPERTY(meta = (bindWidget))
-	class UVerticalBox* P2ChoiceList;
-
-	UPROPERTY(meta = (bindWidget))
-	class UDialogueChoiceWidget* P1Choice_1;
-	UPROPERTY(meta = (bindWidget))
-	class UDialogueChoiceWidget* P1Choice_2;
-	UPROPERTY(meta = (bindWidget))
-	class UDialogueChoiceWidget* P1Choice_3;
-
-	TArray<UDialogueChoiceWidget*> StarChoiceButtons = { P1Choice_1, P1Choice_2, P1Choice_3 };
-
-	UPROPERTY(meta = (bindWidget))
-	class UDialogueChoiceWidget* P2Choice_1;
-	UPROPERTY(meta = (bindWidget))
-	class UDialogueChoiceWidget* P2Choice_2;
-	UPROPERTY(meta = (bindWidget))
-	class UDialogueChoiceWidget* P2Choice_3;
+	class UVerticalBox* ButterbeanChoiceBox;
 	
-	TArray<UDialogueChoiceWidget*> ButterbeanChoiceButtons = { P2Choice_1, P2Choice_2, P2Choice_3 };
 
 };
